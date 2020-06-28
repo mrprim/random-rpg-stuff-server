@@ -1,0 +1,16 @@
+{
+  "name": "rrs-api",
+  "version": "0.0.0",
+  "description": "A served for the random-rpg-stuff npm package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./index.js"
+  },
+  "author": "Sergio Rodriguez <the.sergio.rodriguez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@mrprim/random-rpg-stuff": "^1.0.4",
+    "express": "^4.17.1"
+  }
+}
